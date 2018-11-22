@@ -39,7 +39,7 @@ go get ./...
 
 
 ## 使用方法
-下载之后为源码，需要编译
+启动之后使用以下命令测试发送邮件是否ok
 
 ```
 curl http://$ip:4000/sender/mail -d "tos=a@a.com,b@b.com&subject=xx&content=yy"
